@@ -1,0 +1,86 @@
+@media (min-width: 992px) {
+  .block {
+    &_md_mt {
+      &_10 {margin-top: 10px}
+      &_20 {margin-top: 20px}
+      &_30 {margin-top: 30px}
+      &_40 {margin-top: 40px}
+      &_50 {margin-top: 50px}
+      &_60 {margin-top: 60px}
+      &_70 {margin-top: 70px}
+      &_80 {margin-top: 80px}
+      &_90 {margin-top: 90px}
+      &_100 {margin-top: 100px}
+    }
+    &_md_mb {
+      &_10 {margin-bottom: 10px}
+      &_20 {margin-bottom: 20px}
+      &_30 {margin-bottom: 30px}
+      &_40 {margin-bottom: 40px}
+      &_50 {margin-bottom: 50px}
+      &_60 {margin-bottom: 60px}
+      &_70 {margin-bottom: 70px}
+      &_80 {margin-bottom: 80px}
+      &_90 {margin-bottom: 90px}
+      &_100 {margin-bottom: 100px}
+    }
+  }
+}
+// Margins for tablets
+@media (min-width: 768px){
+  .block {
+    &_sm_mt {
+      &_10 {margin-top: 10px}
+      &_20 {margin-top: 20px}
+      &_30 {margin-top: 30px}
+      &_40 {margin-top: 40px}
+      &_50 {margin-top: 50px}
+      &_60 {margin-top: 60px}
+      &_70 {margin-top: 70px}
+      &_80 {margin-top: 80px}
+      &_90 {margin-top: 90px}
+      &_100 {margin-top: 100px}
+    }
+    &_sm_mb {
+      &_10 {margin-bottom: 10px}
+      &_20 {margin-bottom: 20px}
+      &_30 {margin-bottom: 30px}
+      &_40 {margin-bottom: 40px}
+      &_50 {margin-bottom: 50px}
+      &_60 {margin-bottom: 60px}
+      &_70 {margin-bottom: 70px}
+      &_80 {margin-bottom: 80px}
+      &_90 {margin-bottom: 90px}
+      &_100 {margin-bottom: 100px}
+    }
+  }
+}
+// Margins for smartphones
+@media (max-width: 768px){
+  .block {
+    &_xs_mt {
+      &_10 {margin-top: 10px}
+      &_20 {margin-top: 20px}
+      &_30 {margin-top: 30px}
+      &_40 {margin-top: 40px}
+      &_50 {margin-top: 50px}
+      &_60 {margin-top: 60px}
+      &_70 {margin-top: 70px}
+      &_80 {margin-top: 80px}
+      &_90 {margin-top: 90px}
+      &_100 {margin-top: 100px}
+    }
+    &_xs_mb {
+      &_10 {margin-bottom: 10px}
+      &_20 {margin-bottom: 20px}
+      &_30 {margin-bottom: 30px}
+      &_40 {margin-bottom: 40px}
+      &_50 {margin-bottom: 50px}
+      &_60 {margin-bottom: 60px}
+      &_70 {margin-bottom: 70px}
+      &_80 {margin-bottom: 80px}
+      &_90 {margin-bottom: 90px}
+      &_100 {margin-bottom: 100px}
+    }
+  }
+}
