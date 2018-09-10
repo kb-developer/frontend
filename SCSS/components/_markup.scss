@@ -1,6 +1,6 @@
 @media (min-width: 992px) {
-  .block {
-    &_md_mt {
+  .mt {
+    &_md{
       &_10 {margin-top: 10px}
       &_20 {margin-top: 20px}
       &_30 {margin-top: 30px}
@@ -12,7 +12,9 @@
       &_90 {margin-top: 90px}
       &_100 {margin-top: 100px}
     }
-    &_md_mb {
+  }
+  .mb {
+    &_md {
       &_10 {margin-bottom: 10px}
       &_20 {margin-bottom: 20px}
       &_30 {margin-bottom: 30px}
@@ -28,8 +30,8 @@
 }
 // Margins for tablets
 @media (min-width: 768px){
-  .block {
-    &_sm_mt {
+  .mt  {
+    &_sm {
       &_10 {margin-top: 10px}
       &_20 {margin-top: 20px}
       &_30 {margin-top: 30px}
@@ -41,7 +43,9 @@
       &_90 {margin-top: 90px}
       &_100 {margin-top: 100px}
     }
-    &_sm_mb {
+  }
+  .mb {
+    &_sm {
       &_10 {margin-bottom: 10px}
       &_20 {margin-bottom: 20px}
       &_30 {margin-bottom: 30px}
@@ -57,8 +61,8 @@
 }
 // Margins for smartphones
 @media (max-width: 768px){
-  .block {
-    &_xs_mt {
+  .mt {
+    &_xs {
       &_10 {margin-top: 10px}
       &_20 {margin-top: 20px}
       &_30 {margin-top: 30px}
@@ -70,7 +74,9 @@
       &_90 {margin-top: 90px}
       &_100 {margin-top: 100px}
     }
-    &_xs_mb {
+  }
+  .mb {
+    &_xs {
       &_10 {margin-bottom: 10px}
       &_20 {margin-bottom: 20px}
       &_30 {margin-bottom: 30px}
