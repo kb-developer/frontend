@@ -1,0 +1,24 @@
+.gradient {
+    position: relative;
+    width: 60%;
+    height: 200px;
+    background: linear-gradient(to bottom, #0e0e0e 0%,#0e0e0e 100%);
+    margin: 0 auto;
+    transform-origin: bottom;
+    margin-top: 50px;
+      &.rhombus:after {
+      content: '';
+      position: absolute;
+      right: 0px;
+      transform-origin: unset;
+      top: 0px;
+      bottom: 0;
+      background: #0e0e0e;
+      width: 100%;
+      height: calc(100% + 31px);
+      /* transform: skew(27deg); */
+      transform: skew(-30deg) scaleY(.8666);
+      z-index: -1;
+      transform-origin: 0 0;
+    }
+}
